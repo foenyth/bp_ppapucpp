@@ -15,8 +15,11 @@ using namespace std;
 
 int main()
 {
-    double d1 = 2.3;
-//    double d2 = d1 + 2; // 2 is converted to 2.0 bfore adding
-    if (d1 < 3) // 0 is converted to 0.0 before comparison
-        cout << "d1 is less than half of ten.\n";
+    int a = 20000;
+    char c = a; // try to squeeze a large int into a small char
+    int b = c;
+    if (a != b) // != means "not equal"
+        cout << "Oops!: " << a << " != " << b << '\n';
+    else
+        cout << "Wow! We have large characters\n";
 }
