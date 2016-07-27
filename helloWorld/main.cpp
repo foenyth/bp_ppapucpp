@@ -13,14 +13,15 @@ using namespace std;
 
 // read first and second name
 
-int main() {
-    cout << "Please enter two names\n";
-    string first;
-    string second;
-    cin >> first >> second; // read two strings
-    if (first == second) cout << "that's the same name twice\n";
-    if (first < second)
-        cout << first << " is alphabetically before " << second << '\n';
-    if (first > second)
-        cout << first << " is alphabetically after " << second << '\n';
+int main()
+{
+    int number_of_words = 0;
+    string previous = " "; // not a word
+    string current;
+    while (cin >> current) {
+        ++number_of_words; // increase word count
+        if (previous == current)
+            cout << "word number " << number_of_words << " repeated: " << current << '\n';
+        previous = current;
+    }
 }
