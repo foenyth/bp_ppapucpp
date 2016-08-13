@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4AA088881D5E2EE700F09D79"
-               BuildableName = "exercises"
-               BlueprintName = "exercises"
-               ReferencedContainer = "container:exercises.xcodeproj">
+               BlueprintIdentifier = "4A6DF7E51D5F71C600AE30EA"
+               BuildableName = "m2k"
+               BlueprintName = "m2k"
+               ReferencedContainer = "container:m2k.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4AA088881D5E2EE700F09D79"
-            BuildableName = "exercises"
-            BlueprintName = "exercises"
-            ReferencedContainer = "container:exercises.xcodeproj">
+            BlueprintIdentifier = "4A6DF7E51D5F71C600AE30EA"
+            BuildableName = "m2k"
+            BlueprintName = "m2k"
+            ReferencedContainer = "container:m2k.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4AA088881D5E2EE700F09D79"
-            BuildableName = "exercises"
-            BlueprintName = "exercises"
-            ReferencedContainer = "container:exercises.xcodeproj">
+            BlueprintIdentifier = "4A6DF7E51D5F71C600AE30EA"
+            BuildableName = "m2k"
+            BlueprintName = "m2k"
+            ReferencedContainer = "container:m2k.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4AA088881D5E2EE700F09D79"
-            BuildableName = "exercises"
-            BlueprintName = "exercises"
-            ReferencedContainer = "container:exercises.xcodeproj">
+            BlueprintIdentifier = "4A6DF7E51D5F71C600AE30EA"
+            BuildableName = "m2k"
+            BlueprintName = "m2k"
+            ReferencedContainer = "container:m2k.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
