@@ -6,7 +6,7 @@
 //  Copyright © 2016 phantom. All rights reserved.
 //
 
-#include <iostream>
+#include "std_lib_facilities.h"
 
 int main() {
     //  Ask user to input one of the provided numbers
