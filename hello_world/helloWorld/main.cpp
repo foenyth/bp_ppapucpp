@@ -22,8 +22,10 @@ int main()
     
     if (unit == 'i')
         std::cout << length << "in == " << cm_per_inch * length << "cm.\n";
-    else
+    else if (unit == 'c')
         std::cout << length << "cm == " << length / cm_per_inch << "in.\n";
+    else
+        std::cout << "Sorry, we don't know a unit called " << unit << "\n";
     
     
     return 0;
