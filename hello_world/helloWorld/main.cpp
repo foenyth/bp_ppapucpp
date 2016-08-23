@@ -20,13 +20,14 @@ int main()
     
     std::cin >> length >> unit;
     
-    if (unit == 'i')
-        std::cout << length << "in == " << cm_per_inch * length << "cm.\n";
-    else if (unit == 'c')
-        std::cout << length << "cm == " << length / cm_per_inch << "in.\n";
-    else
-        std::cout << "Sorry, we don't know a unit called " << unit << "\n";
-    
-    
-    return 0;
+    switch (unit) {
+        case 'i':
+            std::cout << length << "in == " << cm_per_inch * length << "cm.\n";
+            break;
+        case 'c':
+            std::cout << length << "cm == " << length / cm_per_inch << "in.\n";
+            break;
+        default:
+            std::cout << "Sorry, we don't know a unit called " << unit << "\n";
+    }
 }
