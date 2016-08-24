@@ -13,21 +13,18 @@
 
 int main()
 {
-    constexpr double cm_per_inch = 2.54;    //  number of centimeters in an inch
-    double length = 1;  //  length in inches or centimeters
-    char unit = 0;
-    std::cout << "Please enter a length followed by a unit (c or i): ";
-    
-    std::cin >> length >> unit;
-    
-    switch (unit) {
-        case 'i':
-            std::cout << length << "in == " << cm_per_inch * length << "cm.\n";
+    std::cout << "Please enter a digit: ";
+    char a;
+    std::cin >> a;
+    switch (a) {
+            case'0': case '2': case '4': case '6': case '8':
+                std::cout << a << " is even.\n";
             break;
-        case 'c':
-            std::cout << length << "cm == " << length / cm_per_inch << "in.\n";
+            case '1': case '3': case '5': case '7': case '9':
+                std::cout << a << " is odd.\n";
             break;
-        default:
-            std::cout << "Sorry, we don't know a unit called " << unit << "\n";
+            default:
+                std::cout << a << " is not a digit.\n";
+            break;
     }
 }
